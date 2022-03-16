@@ -2,7 +2,7 @@
   font-family: "Courgette", cursive;
 }
 body {
-  background: #f1e5df;
+  background: #e9d6cd;
 }
 
 .bg-img {
@@ -13,7 +13,6 @@ body {
   background-size: cover;
   position: relative;
   padding-bottom: 200px;
-  
 }
 
 .container {
@@ -36,19 +35,26 @@ body {
   font-size: 17px;
   width: 25%;
   font-size: xx-large;
-  
 }
 
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-.intro{
-    margin-left: 3%;
-    color: white;
-    margin-top: 15%;
-
+.intro {
+  margin-left: 3%;
+  color: white;
+  margin-top: 15%;
 }
-.intro h1{
-    font-size: 80px;
+.intro h1 {
+  font-size: 80px;
+}
+button {
+  background-color:#bb7e63;
+  border: none;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 25px
 }
