@@ -6,35 +6,27 @@ body {
 }
 
 .bg-img {
-  /* The image used */
   background-image: url("../images/nik-owens-40OJLYVWeeM-unsplash.jpg");
-
   min-height: 600px;
-
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* Needed to position the navbar */
   position: relative;
- padding-bottom: 200px;
+  padding-bottom: 200px;
+  
 }
 
-/* Position the navbar container inside the image */
 .container {
   position: absolute;
   margin: 20px;
   width: auto;
 }
 
-/* The navbar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
 }
 
-/* Navbar links */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -45,7 +37,6 @@ body {
   width: 25%;
   font-size: xx-large;
   
-  
 }
 
 .topnav a:hover {
@@ -53,7 +44,7 @@ body {
   color: black;
 }
 .intro{
-    margin-left: 4%;
+    margin-left: 3%;
     color: white;
     margin-top: 15%;
 
