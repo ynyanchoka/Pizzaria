@@ -1,90 +1,111 @@
 * {
-    font-family: "Courgette", cursive;
-  }
-  body {
+  font-family: "Courgette", cursive;
+}
+/* body {
     background: #f1e5df;
-  }
-  
-  .bg-img {
-    /* The image used */
-    background-image: url("../images/nik-owens-40OJLYVWeeM-unsplash.jpg");
-  
-    min-height: 600px;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    /* Needed to position the navbar */
-    position: relative;
-   padding-bottom: 200px;
-  }
-  
-  /* Position the navbar container inside the image */
-  .container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-  }
-  
-  /* The navbar */
-  .topnav {
-    background-color:transparent;
-    padding: 30px 10px;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    max-width: 1366px;
-  }
-  
-  /* Navbar links */
-  .topnav a {
-    float: left;
-    color: aliceblue;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 12px;
-    line-height: 25px;
-    
-    
-  }
-  
-  /* .topnav a:hover {
+  } */
+
+.bg-img {
+  /* The image used */
+  background-image: url("../images/nik-owens-40OJLYVWeeM-unsplash.jpg");
+
+  min-height: 600px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  /* position: relative; */
+  padding-bottom: 200px;
+}
+
+/* Position the navbar container inside the image */
+/* .container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+} */
+
+/* The navbar */
+.topnav {
+  background-color: transparent;
+  padding: 30px 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 1366px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 12px;
+  line-height: 25px;
+}
+
+/* .topnav a:hover {
     background-color: #ddd;
     color: black;
   } */
 
-.topnav #logo{
-    font-size: 35px;
-    font-weight: bold;
-  
+.topnav #logo {
+  font-size: 35px;
+  font-weight: bold;
 }
-.topnav a:hover{
-    color: red;
-
+.topnav a:hover {
+  color: red;
 }
 
-  .intro{
-      margin-left: 4%;
-      color: white;
-      margin-top: 15%;
+.intro {
+  margin-left: 4%;
+  color: white;
+  margin-top: 15%;
+}
+.intro h1 {
+  font-size: 80px;
+}
+.bg-img button {
+  border-radius: 8px;
+  margin-left: 4%;
+  background-color: #bb9976;
+  padding: 14px 25px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-size: large;
+}
+.bg-img button:hover {
+  background: red;
+}
+.about {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+footer{
+    /* position: fixed; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    background-color: #bb9976; ;
   
   }
-  .intro h1{
-      font-size: 80px;
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
-  .bg-img button{
-      border-radius: 8px;
-      margin-left: 4%;
-      background-color: #bb9976;
-      padding: 14px 25px;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-      font-size: large;
-  }
-  .bg-img button:hover{
-    background:red;
-}
+
