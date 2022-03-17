@@ -77,3 +77,14 @@
   .intro h1{
       font-size: 80px;
   }
+  .bg-img button{
+      border-radius: 8px;
+      margin-left: 4%;
+      background-color: #bb9976;
+      padding: 14px 25px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      font-size: large;
+  }
+  .bg-img button:hover{
+    background:red;
+}
