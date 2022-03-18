@@ -94,23 +94,22 @@
      <form class="col-sm-6 offset-sm-3 text-center" action="">
          <div class="form-group">
             <label for="type">Select your preffered pizza type:</label>
-            <select class="form-control" id="pizza-flavour">
-                <option value="">Chicken and mushroom</option>
-                <option value="">BBQ steak</option>
-                <option value="">Veg tikka</option>
-                <option value="">Hawaiian</option>
-                <option value="">Boerewors</option>
-                <option value="">Chicken tikka</option>
-                <option value="">Veg feast</option>
+            <select class="form-control" id="pizza-type">
+                <option value="chickenmush">Chicken and mushroom</option>
+                <option value="bbq">BBQ steak</option>
+                <option value="vegtikka">Veg tikka</option>
+                <option value="hawaiian">Hawaiian</option>
+                <option value="boerewors">Boerewors</option>
+                <option value="chickentikka">Chicken tikka</option>
             </select>
         </div>
         <br>
          <div class="form-group">
             <label for="type">Select your preffered pizza size:</label>
             <select class="form-control" id="pizza-size">
-                <option value="">Large</option>
-                <option value="">Medium</option>
-                <option value="">Small</option>
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
             </select>
 
          </div>
@@ -118,33 +117,29 @@
          <div class="form-group">
             <label for="type">Select your preffered crust:</label>
             <select  class="form-control" id="pizza-crust">
-                <option value="">Crispy</option>
-                <option value="">Stuffed</option>
-                <option value="">Glutten free</option>
+                <option value="crispy">Crispy</option>
+                <option value="stuffed">Stuffed</option>
+                <option value="glutten">Glutten free</option>
             </select>
 
         </div>
         <br>
         <div class="form-group">
-            <label for="type">Select your preffered  toppings:</label>
-            <select class="form-control" name="pizzalist"  id="pizza-flavour">
-                <option value="" class="form-control">Mushrooms and onions</option>
-                <option value="">Green pepper and tomatoes</option>
-                <option value="">Macoon pineapple</option>
-                <option value="">BBQ chicken</option>
-                <option value="">Minced beef, tomatoes and onions</option>
-                <option value="">Sweet corn and pepper</option>
+            <label for="type">Select your preffered  topping:</label>
+            <select class="form-control"  id="pizza-topping">
+                <option value="mush" class="form-control">Mushrooms and onions</option>
+                <option value="pepper">Green pepper and tomatoes</option>
+                <option value="macoon">Macoon pineapple</option>
+                <option value="bbqchicken">BBQ chicken</option>
+                <option value="minced">Minced beef, tomatoes and onions</option>
+                <option value="corn">Sweet corn and pepper</option>
             </select>
 
         </div>
         <br>
         <div class="form-group">
-            <label for="type">Number of pizzas:</label>
-            <select name="pizzalist"  id="pizza-flavour">
-                <option value="">Crispy</option>
-                <option value="">Stuffed</option>
-                <option value="">Glutten free</option>
-            </select>
+            <label for="type">Number of pizza:</label>
+            <input type="number" class="form-control" id="pizza-number" min="1" required>
 
         </div>
         <br>
