@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="./css/styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="./js/scripts.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Pizzaria</title>
 </head>
@@ -25,7 +22,7 @@
             <a href="#contact">Contact</a>
           </div>
           <div class="intro">
-            <h1>Pizzaria</h1>
+            <h1>Pizzaria...</h1>
             <h3>In crust we trust.</h3>
             
           </div>
@@ -36,6 +33,8 @@
         </div>
     </div>
     <br>
+
+
 <!-- about us  -->
 <div class="about">
     <h1>Pizzaria...</h1>
@@ -43,15 +42,145 @@
     <p>Pizzariais all about quality you can trust. Our sole mission is making the freshest, tastiest and funnest Pizza around. Our classic pan pizza will always be a fan favourite, with a soft and chewy crust perfectly balancing out the healthy tomato puree and mozzarella - cheddar blended cheese. Our authentic Italian crust for those who would prefer a light and airy crust to more fully enjoy the toppings. Thin, light and delicious. </p>
     <p>Our newest addition of Puree sauces will blow your mind. Chose between a spicy buffalo, sweet bbq, tangy chipotle can creamy makhni to perfectly compliment your toppings and crust. Our suggestions of combinations might be helpful but ultimately the power lies with you.</p>
 
-</div>
-
-<div class="review">
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque accusamus magnam temporibus eos nobis ad reprehenderit a quaerat perferendis molestiae earum debitis, ex, voluptas, dolorem quia. Praesentium iure maxime officia!</p>
+    <!-- <img class="slice"  src="./images/Top-View-Pizza-PNG-HD-Quality.png" alt=""> -->
 
 </div>
+<div class="container-fluid">
+    <div class="menu">
+        <h1>MENU</h1>
+        <div class="row price">
+            <div class="col-md-3">
+                <h2>Small</h2>
+                <p><em>Kshs.600</em></p>
+            </div>
+            <div class="col-md-3">
+                <h2>Medium</h2>
+                <p><em>Kshs.800</em></p>
+            </div>
+            <div class="col-md-3">
+                <h2>Large</h2>
+                <p><em>Kshs.1,000</em></p>
+            </div>
+        </div>
+        <br>
+        <div class="pizza-list">
+            <h2>CHICKEN AND MUSHROOM</h2>
+            <p>Succulent bbq chicken, creamy mushroom</p>
+            <h2>BBQ STEAK</h2>
+            <p>Marianated bbq steak</p>
+            <h2>VEG TIKKA</h2>
+            <p>Red and green pepper, mushroom and onions</p>
+            <h2>HAWAIIAN</h2>
+            <p>Macon pinapple</p>
+            <h2>BOEREWORS</h2>
+            <p>Minced beef,fresh onions and tomato</p>
+            <h2>CHICKEN TIKKA</h2>
+            <p>Green pepper with chicken</p>
+            <h2>VEG FEAST</h2>
+            <p>Sweet corn with green and red pepper</p>
+
+        </div>
+        <div class="toppings">
+            <h1>TOPPINGS</h1>
+            <p>Mushroom</p>
+
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="container">
+   <div class="card">
+    <h1>Order now!</h1>
+     <form class="col-sm-6 offset-sm-3 text-center" action="">
+         <div class="form-group">
+            <label for="type">Select your preffered pizza type:</label>
+            <select name="pizzalist"  id="pizza-flavour">
+                <option value="">Chicken and mushroom</option>
+                <option value="">BBQ steak</option>
+                <option value="">Veg tikka</option>
+                <option value="">Hawaiian</option>
+                <option value="">Boerewors</option>
+                <option value="">Chicken tikka</option>
+                <option value="">Veg feast</option>
+            </select>
+        ?</div>
+         <div class="form-group">
+            <label for="type">Select your preffered pizza size:</label>
+            <select name="pizzalist"  id="pizza-flavour">
+                <option value="">Large</option>
+                <option value="">Medium</option>
+                <option value="">Small</option>
+            </select>
+
+         </div>
+         <div class="form-group">
+            <label for="type">Select your preffered crust:</label>
+            <select name="pizzalist"  id="pizza-flavour">
+                <option value="">Crispy</option>
+                <option value="">Stuffed</option>
+                <option value="">Glutten free</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <label for="type">Select your preffered  toppings:</label>
+            <select name="pizzalist"  id="pizza-flavour">
+                <option value="">Mushrooms and onions</option>
+                <option value="">Green pepper and tomatoes</option>
+                <option value="">Macoon pineapple</option>
+                <option value="">BBQ chicken</option>
+                <option value="">Minced beef, tomatoes and onions</option>
+                <option value="">Sweet corn and pepper</option>
+            </select>
+
+        </div>
+        <div class="form-group">
+            <label for="type">Number of pizzas:</label>
+            <select name="pizzalist"  id="pizza-flavour">
+                <option value="">Crispy</option>
+                <option value="">Stuffed</option>
+                <option value="">Glutten free</option>
+            </select>
+
+        </div>
+        <button>CHECKOUT</button>
+         
+
+     </form>
+    </div>
+</div>
+
+
+<div class="container">
+    <h2 style="text-align: center;">What they say</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card review">
+                <p>I ordered and the Pizza was delivered in time. The lady at Sarit Center was very proffessional and kind. the Pizza was delicious?</p>
+                <p><em>-Messi</em></p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <p>I had a birthday party for my little munchikin I ordered 5 Pizza the kids and enjoyed it to bits. Their customer service is on another level. I will definately recomment their pizza</p>
+                <p><em>-Ronaldo</em></p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <p>Ordered pizza for our office function, they got the orders right and managed to deliver in time. I like the fact that they allowed many paymnet methods. I will go back again and again?</p>
+                <p><em>-Angelina Jollie</em></p>
+            </div>
+        </div>
+    </div>
+  
+
+</div>
+<br>
+<br>
 <footer>
     <div class="footer-content">
-      <h1>Pizzalux</h1>
+      <h1>PIZZARIA</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam maxime eius expedita reiciendis in, beatae aliquam repudiandae molestias ad quod odio, architec</p>
       <div class="social-links">
         <a href="#"><i class="fa fa-facebook-f"></i></a>
@@ -60,7 +189,7 @@
         <a href="#"><i class="fa fa-linkedin"></i></a>
        
       </div>
-      <p>PIZZARIA 20222</p>
+      <p>PIZZARIA 2022</p>
       
 
     </div>
