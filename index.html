@@ -94,7 +94,7 @@
      <form class="col-sm-6 offset-sm-3 text-center" action="">
          <div class="form-group">
             <label for="type">Select your preffered pizza type:</label>
-            <select name="pizzalist"  id="pizza-flavour">
+            <select class="form-control" id="pizza-flavour">
                 <option value="">Chicken and mushroom</option>
                 <option value="">BBQ steak</option>
                 <option value="">Veg tikka</option>
@@ -107,7 +107,7 @@
         <br>
          <div class="form-group">
             <label for="type">Select your preffered pizza size:</label>
-            <select name="pizzalist"  id="pizza-flavour">
+            <select class="form-control" id="pizza-size">
                 <option value="">Large</option>
                 <option value="">Medium</option>
                 <option value="">Small</option>
@@ -117,7 +117,7 @@
          <br>
          <div class="form-group">
             <label for="type">Select your preffered crust:</label>
-            <select name="pizzalist"  id="pizza-flavour">
+            <select  class="form-control" id="pizza-crust">
                 <option value="">Crispy</option>
                 <option value="">Stuffed</option>
                 <option value="">Glutten free</option>
@@ -127,8 +127,8 @@
         <br>
         <div class="form-group">
             <label for="type">Select your preffered  toppings:</label>
-            <select name="pizzalist"  id="pizza-flavour">
-                <option value="">Mushrooms and onions</option>
+            <select class="form-control" name="pizzalist"  id="pizza-flavour">
+                <option value="" class="form-control">Mushrooms and onions</option>
                 <option value="">Green pepper and tomatoes</option>
                 <option value="">Macoon pineapple</option>
                 <option value="">BBQ chicken</option>
@@ -183,6 +183,7 @@
                 <input id="location" class="form-control" type="text">
             </div>
             <br>
+            <button id="deliver">Let's deliver</button>
         </form>
     </div>
 </div>
@@ -198,13 +199,13 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card review">
                 <p>I had a birthday party for my little munchikin I ordered 5 Pizza the kids and enjoyed it to bits. Their customer service is on another level. I will definately recomment their pizza</p>
                 <p><em>-Ronaldo</em></p>
             </div>
         </div>
         <div class="col-md-4">
-            <div class="card">
+            <div class="card review">
                 <p>Ordered pizza for our office function, they got the orders right and managed to deliver in time. I like the fact that they allowed many paymnet methods. I will go back again and again?</p>
                 <p><em>-Angelina Jollie</em></p>
             </div>
