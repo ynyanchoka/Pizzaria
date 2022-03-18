@@ -28,12 +28,11 @@
           </div>
           <br>
 
-          <button>ORDER NOW</button>
+          <button id="order">ORDER NOW</button>
           
         </div>
     </div>
     <br>
-
 
 <!-- about us  -->
 <div class="about">
@@ -89,8 +88,9 @@
 </div>
 <br><br>
 <div class="container">
-   <div class="card">
+   <div class="card order">
     <h1>Order now!</h1>
+    <br>
      <form class="col-sm-6 offset-sm-3 text-center" action="">
          <div class="form-group">
             <label for="type">Select your preffered pizza type:</label>
@@ -103,7 +103,8 @@
                 <option value="">Chicken tikka</option>
                 <option value="">Veg feast</option>
             </select>
-        ?</div>
+        </div>
+        <br>
          <div class="form-group">
             <label for="type">Select your preffered pizza size:</label>
             <select name="pizzalist"  id="pizza-flavour">
@@ -113,6 +114,7 @@
             </select>
 
          </div>
+         <br>
          <div class="form-group">
             <label for="type">Select your preffered crust:</label>
             <select name="pizzalist"  id="pizza-flavour">
@@ -122,6 +124,7 @@
             </select>
 
         </div>
+        <br>
         <div class="form-group">
             <label for="type">Select your preffered  toppings:</label>
             <select name="pizzalist"  id="pizza-flavour">
@@ -134,6 +137,7 @@
             </select>
 
         </div>
+        <br>
         <div class="form-group">
             <label for="type">Number of pizzas:</label>
             <select name="pizzalist"  id="pizza-flavour">
@@ -143,14 +147,47 @@
             </select>
 
         </div>
-        <button>CHECKOUT</button>
+        <br>
+        <button id="order">ORDER</button>
          
 
      </form>
     </div>
 </div>
+<div class="container">
+    <div class="summary">
+        <h1>You have ordered:</h1>
+        <ol id="list" class="oder-sum">
+        </ol>
 
+    </div>
+</div>
 
+<div class="container">
+    <div class=" card deliver">
+        <h4>Please provide your location for deliveries.</h4>
+        <br>
+        <form class="col-sm-6 offset-sm-3 text-center" action="">
+            <div class="form-group">
+                <label for="name">Please enter you name:</label>
+                <input id="name" class="form-control" type="text">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="phone">Please enter your phone number:</label>
+                <input id="phone" class="form-control" type="text">
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="location">Please enter your location:</label>
+                <input id="location" class="form-control" type="text">
+            </div>
+            <br>
+        </form>
+    </div>
+</div>
+
+<!-- reviews -->
 <div class="container">
     <h2 style="text-align: center;">What they say</h2>
     <div class="row">

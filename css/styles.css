@@ -69,15 +69,15 @@
 .intro h1 {
   font-size: 80px;
 }
-.bg-img button {
+#order {
   border-radius: 8px;
+  margin-bottom: 4%;
   margin-left: 4%;
   background-color: #bb9976;
   padding: 14px 25px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: large;
 }
-.bg-img button:hover {
+#order:hover {
   background: red;
 }
 .about {
@@ -107,6 +107,24 @@
 .pizza-list{
     margin-left: 4%;
     color: #bb9976;
+}
+.order{
+    background-color: black;
+    color: #bb9976;
+    text-align: justify;
+    border-radius: 25px;
+}
+.order h1{
+    text-align: center;
+}
+.deliver{
+    background-color: black;
+    color: #bb9976;
+    text-align: justify;
+    border-radius: 25px;
+}
+.deliver h4{
+    text-align: center;
 }
 
 .review p {
