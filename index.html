@@ -179,20 +179,20 @@
     <div class="deliver">
         <!-- <h4>Please provide your location for deliveries.</h4> -->
         <br>
-        <form action="">
+        <form onsubmit = "locatevalidate()" action="">
             <div class="form-group">
                 <label for="name">Please enter you name:</label>
-                <input id="name" class="form-control" type="text">
+                <input id="locatename" class="form-control" type="text">
             </div>
             <br>
             <div class="form-group">
                 <label for="phone">Please enter your phone number:</label>
-                <input id="phone" class="form-control" type="text">
+                <input id="locatephone" class="form-control" type="number">
             </div>
             <br>
             <div class="form-group">
                 <label for="location">Please enter your location:</label>
-                <input id="location" class="form-control" type="text">
+                <input id="locatelocation" class="form-control" type="text">
             </div>
             <br>
             <button id="deliver">Let's deliver</button>

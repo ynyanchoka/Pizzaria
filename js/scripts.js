@@ -312,6 +312,20 @@ $(document).ready(function(){
     });
 
 });
+
+function locatevalidate () {
+    var locateName = document.getElementById("locatename").value;
+    var locatePhone = document.getElementById("locatephone").value;
+    var locateLocation = document.getElementById("locatelocation").value;
+    if (locateName == "" || locatePhone  == ""|| locateLocation  == ""){
+      alert("Please enter your name, phone number and location.");
+       return false;
+
+    }
+    else{
+      alert ("Your order will be delivered to " + locateLocation);
+          }
+    }
   
 function validate () {
     var name = document.getElementById("yourname").value;
