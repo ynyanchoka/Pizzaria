@@ -12,38 +12,44 @@
     <title>Pizzaria</title>
 </head>
 <body>
+    <a name="home"> 
     <div class="bg-img">
         <div class="container-fluid">
           <div class="topnav">
-            <a href="#logo">PIZZARIA</a>
+            <a href="#logo">PIZZETTA</a>
             <a href="#home">Home</a>
-            <a href="#about">About us</a>
-            <a href="#menu">Menu</a>
+            <a href="#aboutus">About us</a>
+            <a href="#menus">Menu</a>
             <a href="#contact">Contact</a>
           </div>
           <div class="intro">
-            <h1>Pizzaria...</h1>
+            <h1>Pizzetta...</h1>
             <h3>In crust we trust.</h3>
             
           </div>
           <br>
-
-          <button id="order">ORDER NOW</button>
+            <a href="#checkout">
+                <button id="order">ORDER NOW</button>
+            </a>
+          
           
         </div>
     </div>
     <br>
 
 <!-- about us  -->
+<a name="aboutus"> 
 <div class="about">
-    <h1>Pizzaria...</h1>
+    <h1>Pizzetta...</h1>
     <br>
-    <p>Pizzariais all about quality you can trust. Our sole mission is making the freshest, tastiest and funnest Pizza around. Our classic pan pizza will always be a fan favourite, with a soft and chewy crust perfectly balancing out the healthy tomato puree and mozzarella - cheddar blended cheese. Our authentic Italian crust for those who would prefer a light and airy crust to more fully enjoy the toppings. Thin, light and delicious. </p>
+    <p>Pizzetta is all about quality you can trust. Our sole mission is making the freshest, tastiest and funnest Pizza around. Our classic pan pizza will always be a fan favourite, with a soft and chewy crust perfectly balancing out the healthy tomato puree and mozzarella - cheddar blended cheese. Our authentic Italian crust for those who would prefer a light and airy crust to more fully enjoy the toppings. Thin, light and delicious. </p>
     <p>Our newest addition of Puree sauces will blow your mind. Chose between a spicy buffalo, sweet bbq, tangy chipotle can creamy makhni to perfectly compliment your toppings and crust. Our suggestions of combinations might be helpful but ultimately the power lies with you.</p>
 
     <!-- <img class="slice"  src="./images/Top-View-Pizza-PNG-HD-Quality.png" alt=""> -->
 
 </div>
+<!-- menu -->
+<a name="menus"> 
 <div class="container-fluid">
     <div class="menu">
         <h1>MENU</h1>
@@ -63,7 +69,28 @@
         </div>
         <br>
         <div class="pizza-list">
-            <h2>CHICKEN AND MUSHROOM</h2>
+            <div class="row"> 
+                <div class="col-md-3"> 
+                    <h2>What we have:</h2>
+                    <p><em>Chicken and mushroom</em></p>
+                    <p><em>BBQ steak</em></p>
+                    <p><em>Veg tikka</em></p>
+                    <p><em> Hawaiian</em></p>
+                    <p><em>Boerewors</em> </p>
+                    <p><em>Chicken tikka</em></p>
+                </div>
+                <div class="col-md-3"> 
+                    <h2>Toppings:</h2>
+                    <p><em>Mushroom and onions: Kshs.150</em> </p>
+                    <p><em>Green pepper and tomatoes: Kshs.120</em></p>
+                    <p><em> Macoon pineapple: Kshs.170</em></p>
+                    <p><em>BBQ chicken: Kshs.180</em></p>
+                    <p><em>Minced beef, tomatoes and onions: Kshs.100</em></p>
+                    <p><em>Sweet corn and pepper: Kshs.80</em></p>
+                   
+                </div>
+            </div>
+            <!-- <h2></h2>
             <p>Succulent bbq chicken, creamy mushroom</p>
             <h2>BBQ STEAK</h2>
             <p>Marianated bbq steak</p>
@@ -76,17 +103,14 @@
             <h2>CHICKEN TIKKA</h2>
             <p>Green pepper with chicken</p>
             <h2>VEG FEAST</h2>
-            <p>Sweet corn with green and red pepper</p>
-
-        </div>
-        <div class="toppings">
-            <h1>TOPPINGS</h1>
-            <p>Mushroom</p>
+            <p>Sweet corn with green and red pepper</p> -->
 
         </div>
     </div>
 </div>
 <br><br>
+<!-- order form -->
+<a name="checkout"> 
 <div class="container">
    <div class="card order">
     <h1>Order now!</h1>
@@ -95,21 +119,20 @@
          <div class="form-group">
             <label for="type">Select your preffered pizza type:</label>
             <select class="form-control" id="pizza-type">
-                <option value="chickenmush">Chicken and mushroom</option>
-                <option value="bbq">BBQ steak</option>
+                <option value="chicken">Chicken and mushroom</option>
+                <option value="bbqsteak">BBQ steak</option>
                 <option value="vegtikka">Veg tikka</option>
-                <option value="hawaiian">Hawaiian</option>
-                <option value="boerewors">Boerewors</option>
-                <option value="chickentikka">Chicken tikka</option>
+                <option value="Hawaiian">Hawaiian</option>
+                <option value="Boerewors">Boerewors</option>
             </select>
         </div>
         <br>
          <div class="form-group">
             <label for="type">Select your preffered pizza size:</label>
             <select class="form-control" id="pizza-size">
-                <option value="large">Large</option>
-                <option value="medium">Medium</option>
-                <option value="small">Small</option>
+                <option value="Large">Large</option>
+                <option value="Medium">Medium</option>
+                <option value="Small">Small</option>
             </select>
 
          </div>
@@ -117,9 +140,9 @@
          <div class="form-group">
             <label for="type">Select your preffered crust:</label>
             <select  class="form-control" id="pizza-crust">
-                <option value="crispy">Crispy</option>
-                <option value="stuffed">Stuffed</option>
-                <option value="glutten">Glutten free</option>
+                <option value="Crispy">Crispy</option>
+                <option value="Stuffed">Stuffed</option>
+                <option value="Glutten free">Glutten free</option>
             </select>
 
         </div>
@@ -127,12 +150,12 @@
         <div class="form-group">
             <label for="type">Select your preffered  topping:</label>
             <select class="form-control"  id="pizza-topping">
-                <option value="mush" class="form-control">Mushrooms and onions</option>
-                <option value="pepper">Green pepper and tomatoes</option>
-                <option value="macoon">Macoon pineapple</option>
-                <option value="bbqchicken">BBQ chicken</option>
-                <option value="minced">Minced beef, tomatoes and onions</option>
-                <option value="corn">Sweet corn and pepper</option>
+                <option value="Mushrooms and onions" class="form-control">Mushrooms and onions</option>
+                <option value="Green pepper and tomatoes">Green pepper and tomatoes</option>
+                <option value="Macoon pineapple">Macoon pineapple</option>
+                <option value="BBQ chicken">BBQ chicken</option>
+                <option value="Minced beef, tomatoes and onions">Minced beef, tomatoes and onions</option>
+                <option value="cSweet corn and pepper">Sweet corn and pepper</option>
             </select>
 
         </div>
@@ -143,24 +166,32 @@
 
         </div>
         <br>
-        <button id="order">ORDER</button>
+        <a href="#odsum">
+            <button id="odnow">ORDER</button>
+        </a>
+        
          
-
      </form>
     </div>
 </div>
 <div class="container">
     <div class="summary">
-        <h1>You have ordered:</h1>
+        <h1 class="odsum">You have ordered:</h1>
         <ol id="list" class="oder-sum">
         </ol>
+
+        <div class="mx-auto d-block" deliver-pick >
+            <button class="delivery"> DELIVER</button>
+            <button class="pick">PICK</button>
+        
+        </div>
 
     </div>
 </div>
 
 <div class="container">
     <div class=" card deliver">
-        <h4>Please provide your location for deliveries.</h4>
+        <!-- <h4>Please provide your location for deliveries.</h4> -->
         <br>
         <form class="col-sm-6 offset-sm-3 text-center" action="">
             <div class="form-group">
@@ -181,7 +212,50 @@
             <button id="deliver">Let's deliver</button>
         </form>
     </div>
+
+    
 </div>
+<!-- contact us -->
+<div class="container contact">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>How can we help you</h3>
+            <p>Call us +25470889912</p>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" required>
+
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email" required>
+
+                </div>
+                <br>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Message" required>
+
+                </div>
+                <br>
+                <button class="send">SEND</button>
+            </form>
+
+        </div>
+        <div class="col-md-6 locate">
+            <h3>Location</h3>
+            <br>
+            <p>Pizzeta</p>
+            <p>Address: Mama ngina St, Nairobi</p>
+            <br>
+            <h3>Opening hours:</h3>
+            <p>9.00 a.m. to 9.00 p.m.</p>
+
+        </div>
+
+    </div>
+
+</div>
+
 
 <!-- reviews -->
 <div class="container">
@@ -193,12 +267,14 @@
                 <p><em>-Messi</em></p>
             </div>
         </div>
+        <br>
         <div class="col-md-4">
             <div class="card review">
                 <p>I had a birthday party for my little munchikin I ordered 5 Pizza the kids and enjoyed it to bits. Their customer service is on another level. I will definately recomment their pizza</p>
                 <p><em>-Ronaldo</em></p>
             </div>
         </div>
+        <br>
         <div class="col-md-4">
             <div class="card review">
                 <p>Ordered pizza for our office function, they got the orders right and managed to deliver in time. I like the fact that they allowed many paymnet methods. I will go back again and again?</p>
@@ -213,7 +289,7 @@
 <br>
 <footer>
     <div class="footer-content">
-      <h1>PIZZARIA</h1>
+      <h1>PIZZETTA</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam maxime eius expedita reiciendis in, beatae aliquam repudiandae molestias ad quod odio, architec</p>
       <div class="social-links">
         <a href="#"><i class="fa fa-facebook-f"></i></a>
@@ -222,7 +298,7 @@
         <a href="#"><i class="fa fa-linkedin"></i></a>
        
       </div>
-      <p>PIZZARIA 2022</p>
+      <p>PIZZETTA 2022</p>
       
 
     </div>

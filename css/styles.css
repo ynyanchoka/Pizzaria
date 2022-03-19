@@ -87,11 +87,11 @@
 }
 .menu {
   background-image: url(../images/pizza-gddead2f81_1920.jpg);
-  min-height: 200px;
+  /* min-height: 200px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 10px;
   height: fit-content;
 }
 .menu h1 {
@@ -99,45 +99,80 @@
   margin-top: 7%;
   color: #bb9976;
 }
-.price{
-    margin-left: 3%;
-    color: #bb9976;
+.price {
+  margin-left: 3%;
+  color: #bb9976;
+}
+.pizza-list {
+  margin-left: 4%;
+  color: #bb9976;
+}
+.order {
+  background-color: black;
+  color: #bb9976;
+  text-align: justify;
+  border-radius: 25px;
+  /* margin-right:  25%;
+  margin-left: 25%; */
+}
+.order h1 {
+  text-align: center;
+}
 
+#odnow {
+  border-radius: 8px;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  background-color: #bb9976;
+  padding: 14px 25px;
+  font-size: large;
 }
-.pizza-list{
-    margin-left: 4%;
-    color: #bb9976;
+#odnow:hover {
+  background: red;
 }
-.order{
-    background-color: black;
-    color: #bb9976;
-    text-align: justify;
-    border-radius: 25px;
+.summary{
+  text-align: center;
 }
-.order h1{
-    text-align: center;
+.deliver {
+  background-color: black;
+  color: #bb9976;
+  text-align: justify;
+  border-radius: 25px;
 }
-.deliver{
-    background-color: black;
-    color: #bb9976;
-    text-align: justify;
-    border-radius: 25px;
-}
-.deliver h4{
-    text-align: center;
+.deliver h4 {
+  text-align: center;
 }
 #deliver {
-    border-radius: 8px;
-    margin-bottom: 4%;
-    margin-left: 4%;
-    background-color: #bb9976;
-    padding: 14px 25px;
-    font-size: large;
-  }
+  border-radius: 8px;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  background-color: #bb9976;
+  padding: 14px 25px;
+  font-size: large;
+}
 #deliver:hover {
-    background: red;
-  }
+  background: red;
+}
+.delivery{
+  border-radius: 8px;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  background-color: #bb9976;
+  /* padding: 14px 25px; */
+  font-size: large;
 
+}
+.pick{
+  border-radius: 8px;
+  margin-bottom: 4%;
+  margin-left: 4%;
+  background-color: #bb9976;
+  /* padding: 14px 25px; */
+  font-size: large;
+}
+.locate{
+  text-align: justify;
+}
 .review p {
   text-align: center;
   margin-top: 5%;
@@ -168,13 +203,3 @@ footer {
   flex-direction: column;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
