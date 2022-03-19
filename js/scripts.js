@@ -168,11 +168,11 @@ $(document).ready(function(){
                             case size = "Large":
                                 price = 1000;
                                 if (crust === "Crispy" ){
-                                    totalPrice = (price*number) + 100;
+                                    totalPrice = (price*number) + 100 + 200;
                                 } else if (crust === "Stuffed") {
-                                    totalPrice = (price*number) + 150;
+                                    totalPrice = (price*number) + 150 + 200;
                                 } else if (crust === "Glutten free") {
-                                    totalPrice = (price * number)+ 200;
+                                    totalPrice = (price * number)+ 200 + 200;
                                 } 
                                 else{
                                     totalPrice === price
@@ -211,8 +211,8 @@ $(document).ready(function(){
                             switch (size) {
                                 case size = "Large":
                                     price = 1000;
-                                    if (crust === "Crispy" ){
-                                        totalPrice = (price*number) + 100;
+                                    if (crust === "Crispy"  ){
+                                        totalPrice = (price*number) + 100 ;
                                     } else if (crust === "Stuffed") {
                                         totalPrice = (price*number) + 150;
                                     } else if (crust === "Glutten free") {
@@ -253,30 +253,39 @@ $(document).ready(function(){
                             break;
 
         }
+
+        // switch (toppings){
+        //     case (toppings)
+        // }
+
+
+        
         switch (toppings){
             case toppings = "Mushrooms and onions":
-                totalPrice = totalPrice + 150;
+                newtotalPrice = totalPrice + 150;
                 break;
             case toppings = "Green pepper and tomatoes":
-                totalPrice = totalPrice + 120;
+                newtotalPrice = totalPrice + 120;
                 break;
             case toppings = "Macoon pineapple":
-                totalPrice = totalPrice + 170;
+                newtotalPrice = totalPrice + 170;
                 break;
             case toppings = "BBQ chicken":
-                totalPrice = totalPrice +180;
+                newtotalPrice = totalPrice +180;
                 break;
             case toppings = "Minced beef, tomatoes and onionsd":
-                totalPrice = totalPrice + 100;
+                newtotalPrice = totalPrice + 100;
                 break;
-            case toppings = ">Sweet corn and pepper":
-                totalPrice = totalPrice + 80;
+            case toppings = "Sweet corn and pepper":
+                newtotalPrice = totalPrice + 80;
                 break;
         
         }
+
+
         
 
-        let newOrder= order(type,size,crust,toppings,number,totalPrice);
+        let newOrder= order(type,size,crust,toppings,number,newtotalPrice);
 
         $(".odsum").slideDown(2000)
         $('.deliver').slideUp();
