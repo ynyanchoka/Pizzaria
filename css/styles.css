@@ -3,29 +3,15 @@
   } */
 
 .bg-img {
-  /* The image used */
   background-image: url("../images/nik-owens-40OJLYVWeeM-unsplash.jpg");
-
-  min-height: 600px;
-
-  /* Center and scale the image nicely */
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* Needed to position the navbar */
-  /* position: relative; */
   padding-bottom: 200px;
 }
 
-/* Position the navbar container inside the image */
-/* .container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
-} */
 
-/* The navbar */
 .topnav {
   background-color: transparent;
   padding: 30px 10px;
@@ -34,6 +20,7 @@
   right: 0;
   margin: auto;
   max-width: 1366px;
+  
 }
 
 /* Navbar links */
@@ -57,17 +44,20 @@
   font-size: 35px;
   font-weight: bold;
 }
+.logo{
+  color: orange;
+}
 .topnav a:hover {
-  color: red;
+  color:#ADD8E6;
 }
 
 .intro {
   margin-left: 4%;
   color: white;
-  margin-top: 15%;
+  margin-top: 20%;
 }
 .intro h1 {
-  font-size: 80px;
+  font-size: 65px;
 }
 #order {
   border-radius: 8px;
@@ -78,7 +68,7 @@
   font-size: large;
 }
 #order:hover {
-  background: red;
+  background:orange;
 }
 .about {
   text-align: center;
@@ -91,12 +81,14 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 10px;
-  height: fit-content;
+  width: 100%;
+  padding-left: 0%;
+  padding-right: 0%;
+  
 }
-.menu h1 {
+.menu h2 {
   text-align: center;
-  margin-top: 7%;
+  top: 10%;
   color: #bb9976;
 }
 .price {
@@ -108,12 +100,9 @@
   color: #bb9976;
 }
 .order {
-  background-color: black;
-  color: #bb9976;
-  text-align: justify;
-  border-radius: 25px;
-  /* margin-right:  25%;
-  margin-left: 25%; */
+  margin-left: 30%;
+  margin-right: 30%;
+ 
 }
 .order h1 {
   text-align: center;
@@ -121,37 +110,29 @@
 
 #odnow {
   border-radius: 8px;
-  margin-bottom: 4%;
-  margin-left: 4%;
   background-color: #bb9976;
-  padding: 14px 25px;
   font-size: large;
 }
 #odnow:hover {
-  background: red;
+  background:orange;
 }
 .summary{
   text-align: center;
 }
 .deliver {
-  background-color: black;
-  color: #bb9976;
-  text-align: justify;
-  border-radius: 25px;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 .deliver h4 {
   text-align: center;
 }
 #deliver {
   border-radius: 8px;
-  margin-bottom: 4%;
-  margin-left: 4%;
   background-color: #bb9976;
-  padding: 14px 25px;
   font-size: large;
 }
 #deliver:hover {
-  background: red;
+  background:orange;
 }
 .delivery{
   border-radius: 8px;
@@ -172,6 +153,36 @@
 }
 .locate{
   text-align: justify;
+}
+.contact{
+  /* background-image: url(../images/pexels-fwstudio-172278.jpg); */
+  background-color: black;
+  color: #bb9976;
+
+
+}
+.contact h3{
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.contact p{
+  margin-left: 5%;
+}
+.form-group{
+  margin-left: 5%;
+}
+.send{
+  margin-left: 5%;
+  background-color: #bb9976;
+  margin-bottom: 4%;
+}
+.send :hover {
+  background:orange;
+}
+.send {
+  border-radius: 8px;
+  background-color: #bb9976;
+  font-size: large;
 }
 .review p {
   text-align: center;

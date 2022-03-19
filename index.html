@@ -16,11 +16,11 @@
     <div class="bg-img">
         <div class="container-fluid">
           <div class="topnav">
-            <a href="#logo">PIZZETTA</a>
+            <a style="color:orange" href="#logo">PIZZETTA</a>
             <a href="#home">Home</a>
             <a href="#aboutus">About us</a>
             <a href="#menus">Menu</a>
-            <a href="#contact">Contact</a>
+            <a href="#contactus">Contact</a>
           </div>
           <div class="intro">
             <h1>Pizzetta...</h1>
@@ -40,7 +40,7 @@
 <!-- about us  -->
 <a name="aboutus"> 
 <div class="about">
-    <h1>Pizzetta...</h1>
+    <h1>Our story</h1>
     <br>
     <p>Pizzetta is all about quality you can trust. Our sole mission is making the freshest, tastiest and funnest Pizza around. Our classic pan pizza will always be a fan favourite, with a soft and chewy crust perfectly balancing out the healthy tomato puree and mozzarella - cheddar blended cheese. Our authentic Italian crust for those who would prefer a light and airy crust to more fully enjoy the toppings. Thin, light and delicious. </p>
     <p>Our newest addition of Puree sauces will blow your mind. Chose between a spicy buffalo, sweet bbq, tangy chipotle can creamy makhni to perfectly compliment your toppings and crust. Our suggestions of combinations might be helpful but ultimately the power lies with you.</p>
@@ -52,18 +52,19 @@
 <a name="menus"> 
 <div class="container-fluid">
     <div class="menu">
-        <h1>MENU</h1>
+        <h2>MENU</h2>
+        <br>
         <div class="row price">
             <div class="col-md-3">
-                <h2>Small</h2>
+                <h3>Small</h3>
                 <p><em>Kshs.600</em></p>
             </div>
             <div class="col-md-3">
-                <h2>Medium</h2>
+                <h3>Medium</h3>
                 <p><em>Kshs.800</em></p>
             </div>
             <div class="col-md-3">
-                <h2>Large</h2>
+                <h3>Large</h3>
                 <p><em>Kshs.1,000</em></p>
             </div>
         </div>
@@ -71,7 +72,7 @@
         <div class="pizza-list">
             <div class="row"> 
                 <div class="col-md-3"> 
-                    <h2>What we have:</h2>
+                    <h3>What we have:</h3>
                     <p><em>Chicken and mushroom</em></p>
                     <p><em>BBQ steak</em></p>
                     <p><em>Veg tikka</em></p>
@@ -80,7 +81,7 @@
                     <p><em>Chicken tikka</em></p>
                 </div>
                 <div class="col-md-3"> 
-                    <h2>Toppings:</h2>
+                    <h3>Toppings:</h3>
                     <p><em>Mushroom and onions: Kshs.150</em> </p>
                     <p><em>Green pepper and tomatoes: Kshs.120</em></p>
                     <p><em> Macoon pineapple: Kshs.170</em></p>
@@ -90,21 +91,6 @@
                    
                 </div>
             </div>
-            <!-- <h2></h2>
-            <p>Succulent bbq chicken, creamy mushroom</p>
-            <h2>BBQ STEAK</h2>
-            <p>Marianated bbq steak</p>
-            <h2>VEG TIKKA</h2>
-            <p>Red and green pepper, mushroom and onions</p>
-            <h2>HAWAIIAN</h2>
-            <p>Macon pinapple</p>
-            <h2>BOEREWORS</h2>
-            <p>Minced beef,fresh onions and tomato</p>
-            <h2>CHICKEN TIKKA</h2>
-            <p>Green pepper with chicken</p>
-            <h2>VEG FEAST</h2>
-            <p>Sweet corn with green and red pepper</p> -->
-
         </div>
     </div>
 </div>
@@ -112,13 +98,14 @@
 <!-- order form -->
 <a name="checkout"> 
 <div class="container">
-   <div class="card order">
-    <h1>Order now!</h1>
-    <br>
-     <form class="col-sm-6 offset-sm-3 text-center" action="">
-         <div class="form-group">
-            <label for="type">Select your preffered pizza type:</label>
-            <select class="form-control" id="pizza-type">
+   <div class=" row order">
+        <h1>Order now!</h1>
+     <br>
+     <div class=""> 
+        <form action="">
+            <div class="form-group">
+                <label for="type">Select your preffered pizza type:</label>
+                <select class="form-control" id="pizza-type">
                 <option value="chicken">Chicken and mushroom</option>
                 <option value="bbqsteak">BBQ steak</option>
                 <option value="vegtikka">Veg tikka</option>
@@ -168,13 +155,9 @@
         <br>
         <a href="#odsum">
             <button id="odnow">ORDER</button>
-        </a>
-        
-         
+        </a>    
      </form>
     </div>
-</div>
-<div class="container">
     <div class="summary">
         <h1 class="odsum">You have ordered:</h1>
         <ol id="list" class="oder-sum">
@@ -187,13 +170,15 @@
         </div>
 
     </div>
+
+    </div>
 </div>
 
 <div class="container">
-    <div class=" card deliver">
+    <div class="deliver">
         <!-- <h4>Please provide your location for deliveries.</h4> -->
         <br>
-        <form class="col-sm-6 offset-sm-3 text-center" action="">
+        <form action="">
             <div class="form-group">
                 <label for="name">Please enter you name:</label>
                 <input id="name" class="form-control" type="text">
@@ -215,8 +200,10 @@
 
     
 </div>
+<br><br>
 <!-- contact us -->
-<div class="container contact">
+<a name="contactus"> 
+<div class="container-fluid contact">
     <div class="row">
         <div class="col-md-6">
             <h3>How can we help you</h3>
@@ -255,7 +242,7 @@
     </div>
 
 </div>
-
+<br><br>
 
 <!-- reviews -->
 <div class="container">
