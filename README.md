@@ -1,5 +1,9 @@
 # PIZZETTA
-This is a website for Pizzetta a pizza shop. Customers can order different sizes of pizzas with one or more toppings.  You can also leave comment section too. where your 
+The best pizza base in the city with beautiful scenaries and lovely ambiance. Our pizza are made with a touch of love and care. our staff are professional and friendly. 
+
+You can order a delivery or a pick up or visit our outlets to enjoy our delicios pizza. at Pizzetta you don't just get pizza but you design your pizza by chossing the size of pizza, the crust, toppings and the option to have it delivered at the comfort of your door step.
+
+We are transparent with our fees both for the pizza customization and delivery.
 
 ## Authors
 Ymelda Monari 

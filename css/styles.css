@@ -1,6 +1,8 @@
-/* body {
+body {
     background: #f1e5df;
-  } */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Indie Flower', cursive; */
+  }
 
 .bg-img {
   background-image: url("../images/nik-owens-40OJLYVWeeM-unsplash.jpg");
@@ -100,8 +102,8 @@
   color: #bb9976;
 }
 .order {
-  margin-left: 30%;
-  margin-right: 30%;
+  /* margin-left: 30%;
+  margin-right: 30%; */
  
 }
 .order h1 {
@@ -112,6 +114,10 @@
   border-radius: 8px;
   background-color: #bb9976;
   font-size: large;
+  margin-left: 35%;
+  padding: 12px;
+  width: 30%;
+
 }
 #odnow:hover {
   background:orange;
@@ -130,6 +136,8 @@
   border-radius: 8px;
   background-color: #bb9976;
   font-size: large;
+  width: 150px;
+  
 }
 #deliver:hover {
   background:orange;
@@ -141,6 +149,8 @@
   background-color: #bb9976;
   /* padding: 14px 25px; */
   font-size: large;
+  padding: 12px;
+  width: 150px;
 
 }
 .pick{
@@ -150,6 +160,9 @@
   background-color: #bb9976;
   /* padding: 14px 25px; */
   font-size: large;
+  padding: 12px;
+  width: 150px;
+
 }
 .locate{
   text-align: justify;
@@ -195,6 +208,7 @@
   border-radius: 5px;
   padding: 2px 20px;
   height: 200px;
+  border-radius: 4%;
 }
 
 footer {
@@ -213,4 +227,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+@media screen and (min-width) {
+
 }
