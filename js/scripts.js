@@ -1,4 +1,13 @@
-// function orderpizza(type,size,crust,topping,total){
+function orderpizza(type,size,crust,topping,total){
+    this.type = pizza-type;
+    this.size = pizza-size;
+    this.crust =pizza-crust;
+    this.toppings = pizza-topping;
+    this.total = total;
+
+}
+
+// function Pizzatype,size,crust,topping,total){
 //     this.type = pizza-type;
 //     this.size = pizza-size;
 //     this.crust =pizza-crust;
@@ -6,7 +15,6 @@
 //     this.total = total;
 
 // }
-
 
 
 $(document).ready(function(){
@@ -287,9 +295,9 @@ $(document).ready(function(){
 
         let newOrder= order(type,size,crust,toppings,number,newtotalPrice);
 
-        $(".odsum").slideDown(2000)
-        $('.deliver').slideUp();
-        $('#list').slideDown();
+        $(".odsum").slideToggle(2000)
+        $('.deliver').slideToggle();
+        $('#list').slideToggle();
         $('.delivery').show(1000);
         $('.pick').show(1000);
 
@@ -306,12 +314,12 @@ $(document).ready(function(){
          + "Total: " + newOrder.total)
     });
         $(".delivery").click(function () {
-        $(".odsum").slideUp();
-        $("#list").slideUp();
+        $(".odsum").slideToggle();
+        $("#list").slideToggle();
         $(".odsum").text("Please provide your location for deliveries.").slideToggle();
         $(".delivery").hide(1000);
         $(".pick").hide(1000);
-        $(".deliver").slideDown();
+        $(".deliver").slideToggle();
     });
 
     $(".pick").click(function () {
