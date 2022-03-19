@@ -309,12 +309,21 @@ $(document).ready(function(){
 
     });
 
-    // $(function () {
-    //     $.scrollify.move('.summary');
-    // });
-
     });
 
 });
   
+function validate () {
+    var name = document.getElementById("yourname").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    if (name == "" || email  == ""|| message  == ""){
+      alert("Please enter your name, email and message!");
+       return false;
+
+    }
+    else{
+      alert ("Thank you " +  name + " for contacting us. We will get back to you as soon as possible.");
+          }
+    }
 
