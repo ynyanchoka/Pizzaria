@@ -126,8 +126,8 @@ body {
   text-align: center;
 }
 .deliver {
-  margin-left: 30%;
-  margin-right: 30%;
+  /* margin-left: 30%;
+  margin-right: 30%; */
 }
 .deliver h4 {
   text-align: center;
@@ -136,7 +136,8 @@ body {
   border-radius: 8px;
   background-color: #bb9976;
   font-size: large;
-  width: 150px;
+  /* width: 150px; */
+  
   
 }
 #deliver:hover {

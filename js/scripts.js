@@ -176,9 +176,9 @@ $(document).ready(function(){
                             case size = "Large":
                                 price = 1000;
                                 if (crust === "Crispy" ){
-                                    totalPrice = (price*number) + 100;
+                                    totalPrice = (price * number) + 100;
                                 } else if (crust === "Stuffed") {
-                                    totalPrice = (price*number) + 150;
+                                    totalPrice = (price * number) + 150;
                                 } else if (crust === "Glutten free") {
                                     totalPrice = (price * number)+ 200;
                                 } 
@@ -301,9 +301,7 @@ $(document).ready(function(){
         $('.delivery').show(1000);
         $('.pick').show(1000);
 
-        
-
-        console.log(newOrder); 
+    
 
         $("#list").text(" ");
         $("#list").append( "Pizza type: " + newOrder.ptype + "<br>"
@@ -330,7 +328,7 @@ $(document).ready(function(){
 
 });
 
-
+// validate delivery form
 function locatevalidate () {
     var locateName = document.getElementById("locatename").value;
     var locatePhone = document.getElementById("locatephone").value;
@@ -344,7 +342,7 @@ function locatevalidate () {
       alert ("Your order will be delivered to " + locateLocation + ".  Delivery charges are Ksh.300");
           }
     }
-  
+//   validatecontact us form
 function validate () {
     var name = document.getElementById("yourname").value;
     var email = document.getElementById("email").value;
