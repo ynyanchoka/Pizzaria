@@ -331,7 +331,7 @@ $(document).ready(function(){
 });
 
 
-function locatevalidate () {
+function locateValidate () {
     var locateName = document.getElementById("locatename").value;
     var locatePhone = document.getElementById("locatephone").value;
     var locateLocation = document.getElementById("locatelocation").value;
