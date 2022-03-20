@@ -125,10 +125,10 @@ body {
 .summary{
   text-align: center;
 }
-.deliver {
+/* .deliver {
   margin-left: 30%;
   margin-right: 30%;
-}
+} */
 .deliver h4 {
   text-align: center;
 }
@@ -137,6 +137,7 @@ body {
   background-color: #bb9976;
   font-size: large;
   width: 150px;
+  margin-left: 5%;
   
 }
 #deliver:hover {
