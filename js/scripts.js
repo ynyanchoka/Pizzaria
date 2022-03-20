@@ -176,11 +176,11 @@ $(document).ready(function(){
                             case size = "Large":
                                 price = 1000;
                                 if (crust === "Crispy" ){
-                                    totalPrice = (price*number) + 100 + 200;
+                                    totalPrice = (price*number) + 100;
                                 } else if (crust === "Stuffed") {
-                                    totalPrice = (price*number) + 150 + 200;
+                                    totalPrice = (price*number) + 150;
                                 } else if (crust === "Glutten free") {
-                                    totalPrice = (price * number)+ 200 + 200;
+                                    totalPrice = (price * number)+ 200;
                                 } 
                                 else{
                                     totalPrice === price

@@ -136,9 +136,8 @@ body {
   border-radius: 8px;
   background-color: #bb9976;
   font-size: large;
-  width: 150px;
   margin-left: 5%;
-  
+  /* width: 150px; */
 }
 #deliver:hover {
   background:orange;
