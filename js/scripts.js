@@ -299,7 +299,7 @@ $(document).ready(function(){
         $('.deliver').slideToggle();
         $('#list').slideToggle();
         $('.delivery').show(1000);
-        $('.pick').show(1000);
+        
 
     
 
@@ -316,20 +316,16 @@ $(document).ready(function(){
         $("#list").slideToggle();
         $(".odsum").text("Please provide your location for deliveries.").slideToggle();
         $(".delivery").hide(1000);
-        $(".pick").hide(1000);
         $(".deliver").slideToggle();
     });
 
-    $(".pick").click(function () {
-
-    });
-
-    });
+   
 
 });
 
-// validate delivery form
-function locatevalidate () {
+
+
+function locateValidate () {
     var locateName = document.getElementById("locatename").value;
     var locatePhone = document.getElementById("locatephone").value;
     var locateLocation = document.getElementById("locatelocation").value;
@@ -355,5 +351,5 @@ function validate () {
     else{
       alert ("Thank you " +  name + " for contacting us. We will get back to you as soon as possible.");
           }
-    }
-
+    
+}
